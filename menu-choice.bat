@@ -34,7 +34,7 @@ echo 5) Edge
 echo 6) Sair
 
 echo.
-choice /c "123456" /n /m "Digite a opção: "
+choice /c "123456" /n /m "Digite a opÃ§Ã£o: "
 goto %errorlevel%
 
 :1

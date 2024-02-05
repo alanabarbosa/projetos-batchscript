@@ -28,7 +28,7 @@ echo 2) Listar processo especifico
 echo 3) Parar um processo
 echo 4) Sair
 echo.
-choice /c "1234" /n /m "Digite a opÁ„o: "
+choice /c "1234" /n /m "Digite a op√ß√£o: "
 goto %errorlevel%
 
 :1
@@ -45,12 +45,12 @@ set /p process="Digite o nome do processo> "
 tasklist /fi "imagename eq %process%" | find "%process%"
 if %errorlevel% ==  0 (
 	echo.
-	echo O processo %process% est· em execuÁ„o
+	echo O processo %process% est√° em execu√ß√£o
 	echo.
 	echo Pressione alguma tecla para proseguir...
 ) else (
 	echo.
-	echo O processo %process% n„o est· em execuÁ„o
+	echo O processo %process% n√£o est√° em execu√ß√£o
 	echo.
 	echo Pressione alguma tecla para proseguir...
 )

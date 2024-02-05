@@ -23,10 +23,10 @@ chcp 1252 > nul
 echo Nome do Computador: %COMPUTERNAME%
 echo.
 ===================================
-echo Versão do Windows: %OS%
+echo VersÃ£o do Windows: %OS%
 echo.
 ===================================
-echo Informações do Sistema:
+echo InformaÃ§Ãµes do Sistema:
 systeminfo | find "System Manufacturer"
 systeminfo | find "System Model"
 systeminfo | find "System Type"
@@ -35,7 +35,7 @@ echo.
 echo Arquitetura do Sistema: %PROCESSOR_ARCHITECTURE%
 echo.
 ===================================
-echo Informações sobre a CPU:
+echo InformaÃ§Ãµes sobre a CPU:
 wmic cpu get caption
 echo.
 

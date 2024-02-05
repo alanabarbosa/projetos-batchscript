@@ -20,13 +20,13 @@ REM  QBFC Project Options End
 @echo off
 chcp 1252 > nul
 
-echo Olá, %username%, seja bem vindo(a)
-echo Hoje é %date%
-echo São %time:~0,5%
+echo OlÃ¡, %username%, seja bem vindo(a)
+echo Hoje Ã© %date%
+echo SÃ£o %time:~0,5%
 echo.
 
 cd C:\Users\%username%\Downloads
 
-if exist "C:\Users\%username%\Downloads" ( echo O diretório existe ) else ( echo O diretório não existe )
+if exist "C:\Users\%username%\Downloads" ( echo O diretÃ³rio existe ) else ( echo O diretÃ³rio nÃ£o existe )
 
 pause > nul
